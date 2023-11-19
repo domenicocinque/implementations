@@ -1,0 +1,7 @@
+flax==0.7.5
+jax==0.4.20
+matplotlib==3.7.1
+numpy==1.25.0
+omegaconf==2.3.0
+optax==0.1.7
+tensorflow==2.15.0
