@@ -4,6 +4,9 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
 
+plt.style.use('dark_background')
+
+
 def save_gan_training_gif(training_data: jnp.ndarray, predictions_list: List):
     fig, ax = plt.subplots()
     ax.set_title("GAN training on a circle dataset")
